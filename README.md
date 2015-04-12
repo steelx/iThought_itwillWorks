@@ -19,3 +19,11 @@ Running `grunt test` will run the unit tests with karma.
 `cd iThought_itwillWorks`
 `grunt`
 `grunt serve`
+
+
+## Aplication preview
+1.
+![homepage](https://cloud.githubusercontent.com/assets/3184210/7105201/3344e5c8-e12b-11e4-9e9f-4c6c27eb4238.jpg)
+
+2.
+![flights-result-page](https://cloud.githubusercontent.com/assets/3184210/7105205/6962259e-e12b-11e4-8e26-b53f83597782.jpg)
