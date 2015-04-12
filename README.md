@@ -4,6 +4,8 @@ This project is generated with [yo angular generator](https://github.com/yeoman/
 version 0.11.1.
 
 Flight Booking AngularJs App. Designed and Developed by Ainkya www.AjinkyaxJs.com
+Please note this is just a static app, backend still needs to provide REST API to fetch flights data based on Destinations and Date, etc. This app just makes a static JSON request everytime and fetches the data.
+
 
 ## Build & development
 
