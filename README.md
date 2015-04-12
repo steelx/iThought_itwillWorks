@@ -22,8 +22,8 @@ Running `grunt test` will run the unit tests with karma.
 
 
 ## Aplication preview
-1.
+1.homepage
 ![homepage](https://cloud.githubusercontent.com/assets/3184210/7105201/3344e5c8-e12b-11e4-9e9f-4c6c27eb4238.jpg)
 
-2.
-![flights-result-page](https://cloud.githubusercontent.com/assets/3184210/7105205/6962259e-e12b-11e4-8e26-b53f83597782.jpg)
+2.flights-result-page
+![flights-result-page](https://cloud.githubusercontent.com/assets/3184210/7105444/17b780fc-e137-11e4-9c1e-54223589d45a.jpg)

@@ -130,16 +130,16 @@
                             <div class="b-flight_info__title flight_code">{{flight.returnflight.flight1.flight}}</div>
                             <div class="b-flight_info__title">{{flight.returnflight.flight1.city | shortname}} > {{flight.returnflight.flight2.city | shortname}}</div>
                             <div class="b-flight_info__text flight_time">
-                                Depart: {{flight.returnflight.flight1.arrivalTime | date:"dd/mm/yyyy 'at' h:mma"}} <br>
-                                Arrive: {{flight.returnflight.flight1.departureTime | date:"dd/mm/yyyy 'at' h:mma"}}
+                                Depart: {{flight.returnflight.flight1.arrivalTime | dateMilliseconds:"medium"}} <br>
+                                Arrive: {{flight.returnflight.flight1.departureTime | dateMilliseconds:"medium"}}
                             </div>
                         </div>
                         <div class="b-flight_info__half">
                             <div class="b-flight_info__title flight_code">{{flight.returnflight.flight2.flight}}</div>
                             <div class="b-flight_info__title">{{flight.returnflight.flight2.city | shortname}} > {{flight.returnflight.flight1.city | shortname}}</div>
                             <div class="b-flight_info__text flight_time">
-                                Depart: {{flight.returnflight.flight2.arrivalTime | date:"dd/mm/yyyy 'at' h:mma"}} <br>
-                                Arrive: {{flight.returnflight.flight2.departureTime | date:"dd/mm/yyyy 'at' h:mma"}}
+                                Depart: {{flight.returnflight.flight2.arrivalTime | dateMilliseconds:"medium"}} <br>
+                                Arrive: {{flight.returnflight.flight2.departureTime | dateMilliseconds:"medium"}}
                             </div>
                         </div>
                     </div>
@@ -165,8 +165,8 @@
                             <div class="b-flight_info__title flight_code">{{flight.singleflight.flight}}</div>
                             <div class="b-flight_info__title">{{flight.singleflight.city | shortname}} > {{flight.singleflight.city | shortname}}</div>
                             <div class="b-flight_info__text flight_time">
-                                Depart: {{flight.singleflight.arrivalTime | date:"dd/mm/yyyy 'at' h:mma"}} <br>
-                                Arrive: {{flight.singleflight.departureTime | date:"dd/mm/yyyy 'at' h:mma"}}
+                                Depart: {{flight.singleflight.arrivalTime | dateMilliseconds:"medium"}} <br>
+                                Arrive: {{flight.singleflight.departureTime | dateMilliseconds:"medium"}}
                             </div>
                         </div>
                     </div>
