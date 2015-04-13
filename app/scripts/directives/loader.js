@@ -9,12 +9,13 @@
 angular.module('iThoughtItwillWorksApp')
   .directive('loader', function ($window) {
     return {
-      restrict: 'A',
+      restrict: 'AE',
+      transclude: true,
+      templateUrl: 'views/page-loader.html',
       link: function postLink(scope, element, attrs) {
         //element.text('this is the loader directive');
-
         var support = { animations : Modernizr.cssanimations },
-            container = document.getElementById( attrs.id ),
+            container = document.getElementById( element.parent('div').attr('id') ),
             header = container.querySelector( 'header.loader-header' ),
             loader = new PathLoader( document.getElementById( 'loader-circle' ) ),
             animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
