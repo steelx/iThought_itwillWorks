@@ -20,6 +20,12 @@ Running `grunt test` will run the unit tests with karma.
 `grunt`
 `grunt serve`
 
+Incase 'grunt' command doesnt work, please install dependacies manually by typeing following commands in sync:
+
+  1. `npm install`
+  2. `bower install`
+  3. `grunt`
+  4. `grunt serve` //this will open application in browser.
 
 ## Aplication preview
 1.homepage
