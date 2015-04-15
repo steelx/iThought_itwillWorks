@@ -327,11 +327,11 @@ html, body {
 
 /* Wrappers
 =================*/
-.b-wrapper, .b-header, .b-search, .b-flight, .b-testimonials, .b-destinations, .b-footer, .b-callback, .b-contacts, .b-destinations-page, .b-landing, .b-call-inline, .b-results, .b-intro, .b-about, .b-team, .b-select-travel, .b-mobile-app, .b-offer, .b-offer-page-info, .b-inter-map {
+.b-wrapper, .b-header, .b-search, .b-flight, .b-results {
   max-width: 960px;
   margin: 0 auto;
 }
-.b-wrapper:before, .b-header:before, .b-search:before, .b-flight:before, .b-testimonials:before, .b-destinations:before, .b-footer:before, .b-callback:before, .b-contacts:before, .b-destinations-page:before, .b-landing:before, .b-call-inline:before, .b-results:before, .b-intro:before, .b-about:before, .b-team:before, .b-select-travel:before, .b-mobile-app:before, .b-offer:before, .b-offer-page-info:before, .b-inter-map:before, .b-wrapper:after, .b-header:after, .b-search:after, .b-flight:after, .b-testimonials:after, .b-destinations:after, .b-footer:after, .b-callback:after, .b-contacts:after, .b-destinations-page:after, .b-landing:after, .b-call-inline:after, .b-results:after, .b-intro:after, .b-about:after, .b-team:after, .b-select-travel:after, .b-mobile-app:after, .b-offer:after, .b-offer-page-info:after, .b-inter-map:after {
+.b-wrapper:before, .b-header:before, .b-search:before, .b-flight:before, .b-results:before, .b-header:after, .b-search:after, .b-flight:after, .b-results:after {
   content: " ";
   display: table;
 }
